@@ -1,0 +1,38 @@
+h1 {
+    posición : relativa;
+margen :  50 px ;
+    alineación de texto : centro;
+    familia de fuentes : Arial , Helvetica , sans-serif;
+    tamaño de fuente :  40 px ;
+}
+# titulo {
+    posición : absoluta;
+    arriba : 0 px ;
+    color de fondo : cardo;
+    altura :  140 px ;
+    ancho :  99,0 % ;
+}
+p {
+    posición : relativa;
+    margen superior :  90 px ;
+    izquierda :  550 px ;
+    alinear texto : justificar;
+    familia de fuentes : cursiva;
+    tamaño de fuente :  20 px ;   
+}
+mesa {
+    margen superior :  30 px ;
+}
+table  tr  td {
+    posición : relativa;
+    borde : sólido de 2 px ;
+    izquierda :  530 px ;
+    alinear texto : justificar;
+    familia de fuentes : cursiva;
+    tamaño de fuente :  20 px ;   
+}
+
+
+:: -webkit-scrollbar {
+    pantalla : ninguna;
+}
