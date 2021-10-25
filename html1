@@ -1,0 +1,40 @@
+<! DOCTYPE html >
+< html  lang = " es " >
+
+< cabeza >
+    < meta  charset = " UTF-8 " >
+    < título > Ejercicio 1 </ título >
+    < link  rel = " stylesheet " href = " css / ejercicio1.css " >
+
+</ cabeza >
+< cuerpo >
+    < div  id = " titulo " > </ div >
+< h1 > Ejercicio 1 </ h1 >
+
+< p >
+    Una aplicación web 1.Realizar Que permita < br >
+    Contar la Cantidad de caractères de la ONU < br > texto ingresado por el usuario. Ejemplos:
+</ p >
+    < tabla >
+        < tr >
+            < td > Entrada: palabra </ td >
+            < td > Salida: 7 caracteres </ td > 
+        </ tr >
+        < tr > < td > Entrada: Taller de prueba </ td >
+        < td > Salida: 16 caracteres </ td >
+        </ tr >
+        < tr >
+            < td > Entrada: árbol </ td >
+        < td > Salida: 5 caracteres. </ td >
+        </ tr >
+    </ tabla >
+
+< de  id = " Mostrar " >
+    < h3 > Por favor ingrese su texto: </ h3 >
+    < textarea  name = " cont " id = " cont " onpaste = " cont (); " onkeyup = " cont (); " > </ textarea >
+    < Div  clase = red2  ID = " RES " nombre =" B " > < AC > DATOS ESTUDIANTE < br /> < br /> </ ac > </ div >
+    </ desde >
+    < script  type = " text / javascript " src = " js / ejercicio1.js " > </ script >
+
+</ cuerpo >
+</ html >
